@@ -1,0 +1,128 @@
+#change {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#change h3 {
+    height: 50px;
+    background-color: #404655;
+    text-align: center;
+    color: #DDE1E2;
+    font-size: 30px;
+}
+
+#booking {
+    width: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    height: 1050px;
+    padding: 10px;
+}
+
+
+#booking table {
+    text-align: left;
+    color: #ffffff;
+}
+
+#booking a:link {
+    color: white;
+    background-color: darkred;
+    border:  darkred 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#booking a:hover {
+    color: darkred;
+    background-color: #ffffff;
+    border:  darkred 2px solid;
+}
+
+#booking tr {
+    padding: 0;
+}
+
+#booking td {
+    width: 300px;
+}
+#booking h3 {
+    height: 50px;
+    background-color: #404655;
+    text-align: center;
+    color: #DDE1E2;
+    font-size: 30px;
+}
+
+#booking div{
+    height: 1050px;
+    width: 100%;
+    background-color: #374055;
+    overflow: auto;
+}
+
+
+form {
+    font-size: 20px;
+    color: #DDE1E2;
+    background-color: #374055;
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 260px;
+    text-align: left;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.input-field {
+    margin: 10px 0 10px 20px;
+}
+
+#submit {
+    width: 120px;
+    height: 30px;
+    border: solid 2px #DDE1E2;
+    background-color: #374055;
+    border-radius: 5px;
+    color: #DDE1E2;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+
+#submit:hover {
+    border: solid 2px #ffffff;
+    background-color: #ffffff;
+    color: #374055;
+}
+
+span label {
+    width: 275px;
+}
+
+.element {
+    display: block;
+}
+
+#number {
+    width: 30px;
+}
+
+.succes_message {
+    color: green;
+    font-size: 30px;
+}
+
+.error_message {
+    color: red;
+    font-size: 30px;
+}
+
+.change_password {
+    margin-top: 50px;
+}

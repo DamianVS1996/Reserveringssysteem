@@ -1,0 +1,76 @@
+main h2 {
+    width: 100%;
+    color: #374055;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Raleway', cursive;
+}
+
+.make_appointment {
+    display: block;
+    font-size: 20px;
+    color: #374055;
+    font-family: 'Raleway', cursive;
+    width: 100%;
+}
+
+form {
+    margin: auto;
+}
+
+.make_appointment label {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.input-field {
+    margin: 10px 0 10px 20px;
+}
+
+.element {
+    display: block;
+}
+
+.chooseTime {
+    text-align: left;
+    font-size: 30px;
+}
+
+.chooseTime label {
+    width: 100px;
+}
+
+.chooseTime div {
+    margin: 10px;
+    width: 380px;
+}
+.error {
+    color: darkred;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+}
+
+input {
+    font-size: 20px;
+}
+
+#date {
+    margin-left: 200px;
+}
+select {
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.submit {
+    background-color: #374055;
+    border: none;
+    border-radius: 5px;
+    color: #DDE1E2;
+    cursor: pointer;
+    font-family: 'Raleway', cursive;
+    margin: 10px;
+}

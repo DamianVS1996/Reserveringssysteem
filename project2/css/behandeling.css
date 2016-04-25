@@ -1,0 +1,53 @@
+.container3 {
+    height: 1150px;
+    overflow: auto;
+}
+
+.container3 span {
+    text-decoration: underline;
+}
+
+.treatment, .treatment2{
+    float: left;
+    margin-left: 20px;
+}
+
+.treatment table td {
+    text-align: left;
+    font-size: 23px;
+    color: #404655;
+}
+
+.treatment2 table td {
+    text-align: left;
+    font-size: 23px;
+    color: #404655;
+}
+
+.treatment table th {
+    text-align: left;
+    font-size: 25px;
+    color: #374055;
+
+}
+
+.treatment2 table th {
+    text-align: left;
+    font-size: 25px;
+    color: #374055;
+}
+
+.text {
+    width: 400px;
+    height: 100px;
+    margin: 20px 0 20px 60px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.text h2 {
+    color: #374055;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+

@@ -1,0 +1,78 @@
+label {
+    display: inline-block;
+    width: 320px;
+    text-align: left;
+    font-size: 30px;
+}
+
+form {
+    font-size: 20px;
+    color: #374055;
+    padding: 20px;
+    font-family: 'Raleway', cursive;
+    padding-left: 100px;
+    width: 100%;
+}
+
+.input-field {
+    margin: 10px 0 10px 10px;
+    margin-left: 100px;
+    border: none;
+}
+
+#register {
+    width: 140px;
+    height: 40px;
+    background-color: #374055;
+    color: #DDE1E2;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Raleway', cursive;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 430px;
+}
+
+
+#clear {
+    width: 140px;
+    height: 40px;
+    background-color: #374055;
+    color: #DDE1E2;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Raleway', cursive;
+    cursor: pointer;
+}
+
+form p {
+    display: inline;
+    color: darkred;
+    margin: 20px 10px 0 0;
+}
+.error {
+    color: darkred;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#newsletter {
+    margin-left: 100px;
+    width: 20px;
+}
+
+main {
+    font-family: 'Raleway', cursive;
+    color: #374055;
+}
+
+.element {
+    display: block;
+}
+
+input {
+    width: 200px;
+    font-size: 20px;
+}

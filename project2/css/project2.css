@@ -1,0 +1,294 @@
+* {
+    margin: auto;
+}
+
+body {
+ background-color: #C1BAC0;
+    height: auto;
+}
+
+nav {
+    background-color: #374055;
+    height: 50px;
+    width: 85%;
+    text-align: center;
+}
+
+nav div {
+    float: left;
+}
+
+#left {
+    width: 30%;
+    height: 80px;
+}
+
+#left ul {
+    float: left;
+    margin-top: 10px;
+}
+
+#right {
+    width: 30%;
+    height: 80px;
+}
+
+#right ul {
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 23px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    padding: 4px;
+}
+
+ li a:link, a:visited {
+    color: #DDE1E2;
+    text-decoration: none;
+    display: inline;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+}
+
+ li a:hover {
+     color: green;
+     background-color: #ffffff;
+}
+
+ li a:active {
+    color: darkred;
+}
+
+#title {
+    text-align: center;
+    height: 0;
+    width: 35%;
+    border-bottom: 70px solid #8592A5;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+#title h1 {
+    cursor: pointer;
+    text-align: center;
+    color: #374055;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    width: 70%
+}
+ a {
+    text-decoration: none;
+}
+header {
+    width: 85%;
+    height: 400px;
+    background-image: url("../bestanden/hair.jpg");
+    background-size: 100% 625px;
+}
+
+header #background {
+    width: 85%;
+    height: 350px;
+    position: absolute;
+}
+
+#afspraak {
+    height: 180px;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: solid 3px #DDE1E2;
+    float: right;
+    top: 50px;
+    right: 50px;
+    color: #DDE1E2;
+}
+
+#afspraak h2 {
+    width: 400px;
+}
+
+#afspraak img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#afspraak img:hover {
+    opacity: 0.5;
+}
+#afspraak div {
+    float: left;
+}
+
+#container2 {
+    width: 85%;
+    height: 1220px;
+}
+
+main {
+    float: left;
+    width: 72.5%;
+    margin: 10px;
+    height: 1200px;
+    background-color: #8592A5;
+}
+
+#menu_title {
+    text-align: center;
+    background-color: #DDE1E2;
+    height: 50px;
+    width: 100%;
+}
+
+#menu_title h2 {
+    font-size: 40px;
+    color: #374055;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    background-color: #8592A5;
+    height: 1200px;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #404655;
+}
+
+aside h2 {
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #DDE1E2;
+    text-align: center;
+    color: #374055;
+}
+table {
+    text-align: end;
+    //background-color: #8592A5;
+}
+
+table td {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#googleMap {
+    width: 400px;
+    height: 380px;
+    margin-top: 10px;
+}
+
+#adresGegevens {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ol {
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+ol li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer {
+    width: 85%;
+    background-color: #374055;
+    color: #DDE1E2;
+    height: 55px;
+}
+
+footer div {
+    float: left;
+    height: 50px;
+    width: 50%;
+    display: inline;
+}
+
+footer #social {
+    float: right;
+}
+
+footer ol {
+    margin-top: 10px;
+}
+
+footer li {
+    display: inline;
+    font-size: 23px;
+}
+
+footer h3{
+    display: inline;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+.profileName a {
+    color: #1780b4;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#about {
+    margin-top: 50px;
+    width: 650px;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    color: #374055;
+}
+
+#home {
+    height: 700px;
+}
+
+#home img{
+    padding: 20px;
+    height: 400px;
+    width: 1125px;
+}
+
+#trends {
+    display: block;
+    height: 500px;
+}
+
+#trends h3 {
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0 0 30px 30px;
+    color: #374055;
+}
+
+#trends img {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding: 0 40px 0 40px;
+}

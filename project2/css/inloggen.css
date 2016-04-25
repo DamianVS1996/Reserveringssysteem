@@ -1,0 +1,45 @@
+form {
+    font-family: 'Raleway', cursive;
+    padding: 20px;
+}
+
+
+label {
+    font-size: 40px;
+    color: #374055;
+}
+
+.input-field {
+    display: block;
+    margin-top: 10px;
+}
+
+#login{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #374055;
+    border: none;
+    border-radius: 5px;
+    color: #DDE1E2;
+    cursor: pointer;
+    display: block;
+    font-family: 'Raleway', cursive;
+}
+
+#form {
+    text-align: center;
+    height: 1125px;
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+input {
+    width: 200px;
+    font-size: 20px;
+}

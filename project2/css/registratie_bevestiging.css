@@ -1,0 +1,73 @@
+#registration {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    color: #374055;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#bevestiging {
+    float: left;
+    font-size: 30px;
+    margin: 20px 0 0 70px;
+    text-align: center;
+
+}
+
+form {
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    padding: 20px;
+    float: right;
+    font-family: 'Raleway', cursive;
+}
+
+fieldset {
+    border: solid #ffffff 2px;
+    border-radius: 20px;
+    height: 430px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 275px;
+    font-size: 40px;
+}
+
+#login{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: solid 2px #DDE1E2;
+    background-color: #374055;
+    color: #DDE1E2;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-family: 'Raleway', cursive;
+}
+
+.input-field {
+    margin: 10px 0 10px 0;
+}
+
+form div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.error {
+    color: red;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+input {
+    font-size: 20px;
+}
