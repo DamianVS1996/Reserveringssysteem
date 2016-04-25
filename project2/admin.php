@@ -3,14 +3,8 @@
 include('login_session.php');
 include('check_login.php');
 
-// check if user is logged in
-if(!isset($_SESSION['logged_in'])) {
-    header("Location: index.php");
-    exit();
-}
-
-// check if user is admin
-if(!isset($_SESSION['admin'])) {
+// check if user is logged in or is admin
+if(!isset($_SESSION['logged_in']) || !isset($_SESSION['admin']) ) {
     header("Location: index.php");
     exit();
 }
